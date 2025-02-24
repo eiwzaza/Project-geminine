@@ -4,4 +4,45 @@
 .navbar{
     background-color: #ee5142;
 }
-.button
+.main {
+    width: 1920;
+    margin: auto;
+}
+
+.logo a {
+    color: white;
+    font-size: 20px;
+}
+.navbar {
+    display: flex;
+    text-align: center;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.navcolor {
+    width: 618px;
+    height: 32px;
+    padding: 20px;
+}
+.navcolor a   {
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.iconsearch {
+    border: 1px solid red;
+    width: 160px;
+    position:relative;
+    display: flex;
+    flex-direction: row-reverse;
+    top: 21px;
+    right: 60px;
+    
+}
+
+.icon {
+    color: white;
+}
