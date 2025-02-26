@@ -1,48 +1,47 @@
-* {
-    box-sizing: border-box;
-}
-.navbar{
+.autolayout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px 0px;
+    gap: 171px;
+    position: absolute;
+    height: 90px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
     background-color: #ee5142;
 }
-.main {
-    width: 1920;
-    margin: auto;
-}
-
-.logo a {
-    color: white;
-    font-size: 20px;
-}
-.navbar {
-    display: flex;
-    text-align: center;
-    border: 1px solid red;
-    margin: auto;
-}
-
-.navcolor {
-    width: 618px;
-    height: 32px;
-    padding: 20px;
-}
-.navcolor a   {
-    color: white;
-    font-size: 20px;
-    padding: 30px;
-    text-decoration: none;
-}
-
-.iconsearch {
-    border: 1px solid red;
+.logo {
+    margin: 0 auto;
     width: 160px;
-    position:relative;
+    height: 50px;
+}
+.geminine {
+    position: absolute;
+    left: 5%;
+    right: 0;
+    top: 50%;
+    bottom: 7.31%;
+}
+.menu {
     display: flex;
-    flex-direction: row-reverse;
-    top: 21px;
-    right: 60px;
-    
+    align-items: center;
+    position: absolute;
+    left: 30%;
+    bottom: 7.31%;
+    gap: 100px;
+   border: 1px solid red;
 }
 
-.icon {
-    color: white;
+.menu a {
+    width: 72px;
+    height: 32px;
+    font-family: 'LINE Seed Sans TH';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
 }
+
