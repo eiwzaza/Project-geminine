@@ -31,17 +31,22 @@
     left: 30%;
     bottom: 7.31%;
     gap: 100px;
-   border: 1px solid red;
 }
 
 .menu a {
-    width: 72px;
-    height: 32px;
-    font-family: 'LINE Seed Sans TH';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: #FFFFFF;
+width: 72px;
+height: 32px;
+font-family: ;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height */
+/* serious white */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
