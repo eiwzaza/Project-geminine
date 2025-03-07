@@ -5,13 +5,8 @@
     font-weight: normal;
     font-style: normal;
 }
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 body {
-    font-family: 'LINE Seed Sans TH', sans-serif;   
+    font-family: 'LINE Seed Sans TH';
 }
 
 
@@ -21,14 +16,11 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 80px 0px;
     gap: 171px;
-    position: absolute;
+    position: relative;
     width: 1920px;
     height: 90px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
+    
     background-color: #ee5142;
 }
 .logo {
@@ -54,6 +46,9 @@ body {
     margin: 0 auto;
     width: 618px;
     height: 32px;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
 }
 
 .hello {
@@ -63,14 +58,13 @@ body {
     height: 152px;
     left: 400px;
     top: 170px;
-    font-family: 'LINE Seed Sans TH';
-    font-style: normal;
     font-weight: 250;
-    font-size: 70px;
+    font-size: 50px;
     line-height: 152px;
     /* identical to box height */
     /* serious white */
     color: #FFFFFF;
+    
 }
 .frame446 {
     display: flex;
@@ -94,19 +88,37 @@ body {
     width: 217px;
     height: 152px;
     left: 400px;
-    top: 170px;
-    font-size: 250;
-    font-size: 96px;
-    line-height: 152px;
+    top: 120px;
+    font-size: 60px;
 }
 .shape_142-1-h11{
+    border: 1px solid red;
     position: absolute;
     width: 872px;
     height: 154px;
     left: 400px;
-    top: 344px;
+    top: 350px;
+    font-size: 63px;
+    line-height: 120%;
+    color: #FFFFFF; 
+}
+.shape_142-1-h12 {
+    position: absolute;
+    width: 1079px;
+    height: 154px;
+    left: 400px;
+    top: 507px;
+    color: #FFFFFF;
+    z-index: 1;
 }
 
+.h1-rev-img-1-1 {
+    position: absolute;
+    width: 133px;
+    height: 136px;
+    left: 376px;
+    top: 450px;
+}
 .divider img{
     width: 1920px;
     height: 197px; 
@@ -122,6 +134,14 @@ body {
     top: 600px;
     transform: rotate(0deg);  
     }
+
+.vector1 {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+    
+
 /* ___________________________________________ */
 .frame459 {
     /* Frame 459 */
