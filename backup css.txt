@@ -9,58 +9,56 @@ body {
     font-family: 'LINE Seed Sans TH';
 }
 
+
 .navbar_desktop {
+    /* Auto layout */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 80px 0px;
     gap: 171px;
-    position: absolute;
+    width: 100%;
     height: 90px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    background-color: #ee5142;
-    z-index: 1;
     
+    background-color: #ee5142;
 }
-
 .logo {
     margin: 0 auto;
     width: 160px;
     height: 50px;
+    padding: 20px 10px;
+    border: 1px solid red;
 }
 
-.geminine {
-    position: absolute;
-    left: 6%;
-    right: 0%;
-    top: 40%;
-    bottom: 7.31%;
-    
-}
 .menu {
+    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    padding: 0px;
+    padding: 0em;
     gap: 60px;
     margin: 0 auto;
-    width: 100%;
+    width: 618px;
     height: 32px;
-    table-layout: auto;
-}
-.menu a {
-    width: 72px;
-    height: 32px;
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
-    line-height: 32px;
+    top: 20px;
 }
 
+.hello {
+    /* Hello */
+    position: absolute;
+    width: 217px;
+    height: 152px;
+    left: 400px;
+    top: 170px;
+    font-weight: 250;
+    font-size: 50px;
+    line-height: 152px;
+    /* identical to box height */
+    /* serious white */
+    color: #FFFFFF;
+    
+}
 .frame446 {
     display: flex;
     flex-direction: row;
@@ -68,136 +66,106 @@ body {
     align-items: center;
     padding: 0px;
     gap: 10px;
+    margin: 0 auto;
     width: 160px;
     height: 48px;
 }
-.frame446 img {
-    width: 48px;
-    height: 48px;
-}
-
 .banner {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: absolute;
-    width: 1920px;
-    height: 1037px;
-    left: calc(50% - 1920px/2);
-    top: 0px;
-    background-color: #ee5142;
-
-}
-
-.container {
-    width: 1920px;
+    width: 100%;
     height: 840px;
-    
+    table-layout: auto;
+    background-color: #ee5142;
 }
 
-.h1-rev-img-1-1 {
-    position: absolute;
-    width: 133px;
-    height: 136px;
-    left: 367px;
-    top: 510px;
-}
-
-.shape_142-1-h11 {
-    position: absolute;
-    width: 872px;
-    height: 154px;
-    left: 400px;
-    top: 280px;
-    font-weight: 400;
-    font-size: 63px;
-    color: #ffffff;
-}
-
-.vector1 {
-    position: absolute;
-    left: 20.21%;
-    right: 65.94%;
-    top: 19%;
-    bottom: 63.45%;
-    
-}
-.vector2 {
-    position: absolute;
-    width: 139px;
-    height: 101px;
-    left: 740px;
-    top: 280px;
-}
 .hello {
     position: absolute;
     width: 217px;
     height: 152px;
     left: 400px;
-    top: 80px;
-    font-size: normal;
-    font-weight: 250;
-    font-size: 96px;
-    color: #ffffff;
+    top: 120px;
+    font-size: 60px;
 }
-
-.businessmen-work-creatively-1 {
+.shape_142-1-h11{
+    border: 1px solid red;
     position: absolute;
-    top: 21%;
-    left: 1080px;
+    width: 100%;
+    height: 154px;
+    left: 400px;
+    top: 350px;
+    font-size: 63px;
+    line-height: 120%;
+    color: #FFFFFF; 
 }
 .shape_142-1-h12 {
     position: absolute;
     width: 1079px;
     height: 154px;
     left: 400px;
-    top: 560px;
+    top: 507px;
+    color: #FFFFFF;
     z-index: 1;
 }
 
+.h1-rev-img-1-1 {
+    position: absolute;
+    width: 133px;
+    height: 136px;
+    left: 376px;
+    top: 450px;
+}
+.divider img{
+    width: 1920px;
+    height: 197px; 
+   
+}
+
 .frame449 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 6px;
+    box-sizing: border-box;
     position: absolute;
-    width: 106px;
-    height: 48px;
-    left: 907px;
-    bottom: 210px;
-}
+    width: 98.01px;
+    height: 103.85px;
+    left: 1023.1px;
+    top: 600px;
+    transform: rotate(0deg);  
+    }
 
-.frame449 .frame449-1 {
+.vector1 {
     position: absolute;
-    top: 20px;
-    width: 106px;
-    height: 48px;
+    top: 200px;
+    left: 400px;
 }
+    
 
-.divider img {
-    width: 100%;
-    table-layout: fixed;
-    height: 197px;
-    position: absolute;
-    top:1037px;
-    left: 0;
-}
-
+/* ___________________________________________ */
 .frame459 {
+    /* Frame 459 */
+    /* Auto layout */
     display: flex;
     flex-direction: column;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
-    padding: 120px 0 px;
+    padding: 120px 0px;
     gap: 10px;
     position: absolute;
-    width: 100%;
+    width: 1920px;
     height: 795.72px;
-    left: 0;
-    top: 1234px;
+    left: 0px;
+    top: 875px;
+   
 }
-.frame458 {
+.group1 {
+    position: absolute;
+    width: 92.43px;
+    height: 57.1px;
+    left: 270px;
+    top: 450px;
+    flex: none;
+    transform: rotate(-15deg);
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+}
+.frame458{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -225,53 +193,63 @@ body {
     gap: 80px;
     width: 400px;
     height: 341px;
+    
 }
 .frame450 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 0px;
     gap: 20px;
     width: 400px;
     height: 213px;
+    /*flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;*/
 }
 .frame450 .p1 {
+    /*Accusamus Et lust*/
     width: 400px;
     height: 19px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
+    color: #454545;
 }
 .frame450 .h21 {
-    width: 400px;
+    /* The way we do things in our line of work. */
+    width: 550px;
     height: 174px;
     font-style: normal;
-    font-size: 32px;
-    line-height: 67px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #454545;
+      
 }
-.frame450 .p2 {
+.frame450 .p2  {
+    /*We are helping client to create WordPress websites with our talented expert.*/
     width: 400px;
     height: 48px;
+    font-family: 'LINE Seed Sans TH';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
+    /* or 24px */
+    /* text - black */
+    color: #454545;
 }
-.frame450 .h21 img {
-    position: relative;
-    top: -67%;
-    left: 38%;
-}
-.frame452 p {
-    width: 200px;
-    height: 80px;
-    font-size: 19px;
-    font-weight: 400;  
-}
-.frame452 img {
-    position: absolute;
-    margin: 5px;
+.frame452 p{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 164px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
 }
 .frame457 {
     display: flex;
@@ -279,4 +257,6 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 80px;
+    width: 560px;
+    height: 555.72px;
 }
