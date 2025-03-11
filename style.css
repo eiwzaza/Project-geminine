@@ -61,6 +61,7 @@ body {
     line-height: 32px;
 }
 
+
 .frame446 {
     display: flex;
     flex-direction: row;
@@ -71,9 +72,13 @@ body {
     width: 160px;
     height: 48px;
 }
-.frame446 img {
+.frame446 .search {
     width: 48px;
     height: 48px;
+}
+
+.frame446 .menu-icons {
+    display: none;
 }
 
 .banner {
@@ -280,3 +285,80 @@ body {
     padding: 0px;
     gap: 80px;
 }
+
+.orb {
+    width: 400px;
+    height: 50px;
+    display: flexbox;
+    margin: 0 24.7px;
+    float: left;
+    transition: all .2s ease-out;
+  }
+  
+  .orb:hover {
+    transform: scale(1.2);
+    opacity: .5;
+    cursor: pointer;
+  }
+
+.red {
+    background-image: url(/img/auto_text_design-m.jpg);
+    width: 251px;
+}
+.yellow {
+    background-image: url(/img/auto_text_creative-m.jpg);
+    width: 300px;
+}
+.blue {
+    background-image: url(/img/auto_text_uxui-m.jpg);    
+    width: 200px;
+}
+.orange {
+    background-image: url(/img/auto_text_responsive-m.jpg);
+    width: 375px;
+}
+.purple {
+    background-image: url(/img/auto_text_branding-m.jpg);
+    width: 330px;
+}
+
+
+  .autotext {
+    height: 115px;
+    width:1500px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    top: 1600px;
+    margin: 200px auto;
+  }
+  
+  .autotext-inner {
+    display: block;
+    width: 200%;
+    margin: 33px 0;
+    position: absolute;
+    animation: marquee 20s linear infinite;
+  }
+  
+  .autotext-inner:hover {
+    animation-play-state: paused;
+  }
+ 
+  span {
+    float: left;
+    width: 50%:
+  }
+  
+  @keyframes marquee {
+    0% { left: 0; }
+    100% { left: -100%; }
+  }
+
+  /* credit slid https://codepen.io/nickcil/pen/BygPMY*/
+
+  @media only screen and (max-width: 1108px) {
+    .menu {
+        display: none;
+    }
+  }
