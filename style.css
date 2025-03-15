@@ -110,11 +110,11 @@ body {
     position: absolute;
     width: 217px;
     height: 152px;
-    left: 400px;
+    left: 410px;
     top: 80px;
     font-size: normal;
     font-weight: 250;
-    font-size: 96px;
+    font-size: 87px;
     color: #ffffff;
 }
 
@@ -133,23 +133,22 @@ body {
     position: absolute;
     width: 133px;
     height: 136px;
-    left: 367px;
-    top: 510px;
+    left: 380px;
+    top: 520px;
 }
 
 .vector1 {
     position: absolute;
-    left: 20.21%;
-    right: 65.94%;
+    left: 21%;
+    right: 67%;
     top: 19%;
-    bottom: 63.45%;
-    
+    bottom: 63.45%; 
 }
 .vector2 {
     position: absolute;
     width: 139px;
     height: 101px;
-    left: 740px;
+    left: 710px;
     top: 280px;
 }
 
@@ -163,10 +162,13 @@ body {
     width: 1079px;
     height: 154px;
     left: 400px;
-    top: 560px;
+    top: 440px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 63px;
+    color: #ffffff;
     z-index: 1;
 }
-
 .frame449 {
     display: flex;
     flex-direction: column;
@@ -371,38 +373,21 @@ body {
     .menu {
         display: none;
     }
-    .logo {
-        margin: 0 auto;
-        width: 160px;
-        height: 50px;
+       
+
+    .logo .geminine img {
+        width: 100px;
+        height: 31.25px;
     }
     
-    .geminine {
-        position: absolute;
-        left: 10%;
-        right: 0%;
-        top: 40%;
-        bottom: 7.31%;
-        
-    }
-    
-    .frame446 {
-        display: inline;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-        padding: 0px;
-        gap: 10px;
-        width: 200px;
-        height: 48px;
-        
-    }
-    .frame446 .search {
+    .frame446 .icon_search img {
+        position: relative;
+        top: 10px;
         width: 40px;
         height: 40px;
     }
     
-    .frame446 a img {
+    .frame446 .dropdown a img {
         display: block;
         position: relative;
         top: -53px;
@@ -413,6 +398,7 @@ body {
       .dropdown a {
         position: relative;
         display: inline-block;
+        top: 15px;
       }
       
       .dropdown-content {
@@ -455,6 +441,7 @@ body {
         border-radius: 10px;
         width: 180px;
         color: black;
+        
     }
 
         .dropdown:hover .dropdown-content {
@@ -466,11 +453,10 @@ body {
         align-items: flex-start;
         position: absolute;
         width: 390px;
-        height: 880px;
+        height: 1036.50px;
         left: calc(50% - 390px/2);
         top: 0px;
         background-color: #ee5142;
-    
     }
     
     .container {
@@ -483,63 +469,77 @@ body {
         position: absolute;
         width: 133px;
         height: 136px;
-        left: 367px;
-        top: 510px;
+        left: 16px;
+        top: 459px;
+        
+    }
+    .h1-rev-img-1-1 img {
+        width: 86px;
+        height: 88px;
     }
     
     .shape_142-1-h11 {
         position: absolute;
-        width: 872px;
-        height: 154px;
-        left: 400px;
-        top: 280px;
+        width: 350px;
+        height: 115px;
+        left: 20px;
+        top: 220px;
         font-weight: 400;
-        font-size: 63px;
+        font-size: 29px;
         color: #ffffff;
+        text-align: center;
+    }
+    .shape_142-1-h12 {
+        position: absolute;
+        width: 350px;
+        height: 116px;
+        left: 0px;
+        top: 550px;
+        font-size: 30px;
+        text-align:center ;
     }
     
-    .vector1 {
+    .vector1 img {
         position: absolute;
-        left: 20.21%;
-        right: 65.94%;
-        top: 19%;
-        bottom: 63.45%;
-        border: 1px solid black;
+        left: 45px;
+        top: -14px;
+        width: 150px;
+        height: 79px;
     }
     .vector2 {
         position: absolute;
         width: 139px;
         height: 101px;
-        left: 740px;
-        top: 280px;
+        left: 285px;
+        top: 210px;
+    }
+    .vector2 img {
+        width: 80px;
+        height: 60px;
     }
     .hello {
-        font-family: '';
+        font-family: 'LINE Seed Sans TH';
         position: absolute;
         width: 125px;
         height: 63px;
-        left: 400px;
-        top: 60;
+        left: 130px;
+        top: 93px;
         font-size: normal;
         font-weight: 250;
         font-size: 48px;
-        color: black  ;
+        color: white  ;
     }
     
     .businessmen-work-creatively-1 {
         position: absolute;
         top: 21%;
-        left: 1080px;
+        left: 55px;
+        top: 400px;
     }
-    .shape_142-1-h12 {
-        position: absolute;
-        width: 1079px;
-        height: 154px;
-        left: 400px;
-        top: 560px;
-        z-index: 1;
+    .businessmen-work-creatively-1 img {
+        width: 450px;
+        height: 300px;
     }
-    
     .frame449 {
         display: flex;
         flex-direction: column;
