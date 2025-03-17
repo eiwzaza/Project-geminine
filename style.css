@@ -493,16 +493,16 @@ body {
         position: absolute;
         width: 350px;
         height: 116px;
-        left: 0px;
-        top: 550px;
+        left: 25px;
+        top: 570px;
         font-size: 30px;
         text-align:center ;
     }
     
     .vector1 img {
         position: absolute;
-        left: 45px;
-        top: -14px;
+        left: 37px;
+        top: -40px;
         width: 150px;
         height: 79px;
     }
@@ -510,7 +510,7 @@ body {
         position: absolute;
         width: 139px;
         height: 101px;
-        left: 285px;
+        left: 280px;
         top: 210px;
     }
     .vector2 img {
@@ -549,8 +549,8 @@ body {
         position: absolute;
         width: 106px;
         height: 48px;
-        left: 907px;
-        bottom: 210px;
+        left: 155px;
+        bottom: 145px;
     }
     
     .frame449 .frame449-1 {
@@ -561,12 +561,11 @@ body {
     }
     
     .divider img {
-        width: 100%;
-        table-layout: fixed;
-        height: 197px;
-        position: absolute;
+        width: 390px;
+        height: 40px;
         top:1037px;
         left: 0;
+        
     }
     
     .frame459 {
@@ -616,9 +615,13 @@ body {
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
+        position: absolute;
+        left: 0px;
         gap: 20px;
-        width: 400px;
-        height: 213px;
+        width: 350px;
+        height: 419px;
+        text-align: center;
+        
     }
     .frame450 .p1 {
         width: 400px;
@@ -636,23 +639,30 @@ body {
         line-height: 67px;
     }
     .frame450 .p2 {
-        width: 400px;
-        height: 48px;
+        position: relative;
+        left: 25px;
+        width: 350px;
+        height: 72px;
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
         line-height: 120%;
+        
     }
     .frame450 .h21 img {
         position: relative;
-        top: -67%;
-        left: 38%;
+        top: -58%;
+        left: 24%;
     }
+    
     .frame452 p {
+        position: absolute;
+        left: 85px;
         width: 200px;
         height: 80px;
         font-size: 19px;
-        font-weight: 400;  
+        font-weight: 400; 
+        
     }
     .frame452 img {
         position: absolute;
@@ -660,9 +670,25 @@ body {
     }
     .frame457 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: flex-start;
+        position: absolute;
+        text-align: center;
+        width: 240px;
+        height: 1076px;
+        left: 90px;
+        top: 550px;
         padding: 0px;
-        gap: 80px;
+        gap: 40px;
+        
     }
+    .autotext {
+        height: 140px;
+        width: 1500px;
+        overflow: hidden;
+        box-sizing: border-box;
+        position: relative;
+        top: 1980px;
+        margin: 200px auto;
+      }
   }
